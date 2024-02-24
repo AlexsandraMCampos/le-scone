@@ -13,11 +13,9 @@ body {
 main {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    height: 876px;
+    width: 1000px;
+    height: 800px;
     margin-top: 77px;
-
-
 }
 
 span {
@@ -45,10 +43,8 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 60px;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
-
 }
 
 .textLocation {
@@ -58,5 +54,28 @@ span {
     width: 318px;
     height: 82px;
     border-right: 2px solid black;
+}
 
+.textDecoration {
+    color: #988C77;
+    font-size: 18px;
+}
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textWrapper > img{
+    width: 200px;
+    height: 200px;
+}
+.textWrapper > h1{
+    font-size:200px;
+    
+}
+
+main > img{
+    width: 600px;
+    height: 700px;
 }
