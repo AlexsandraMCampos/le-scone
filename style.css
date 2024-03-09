@@ -71,30 +71,30 @@
      gap: 30px;
  }
 
- .textWrapper > img {
+ .textWrapper>img {
      width: 200px;
      height: 200px;
  }
 
- .textWrapper > h1 {
+ .textWrapper>h1 {
      font-size: 200px;
 
  }
 
- main > img {
+ main>img {
      width: 600px;
      height: 700px;
  }
 
  section {
      display: flex;
-     width: 1200px;
-     height: 607px;
-     gap:60px;
-   
+     width: 1000px;
+     gap: 60px;
+     margin-bottom: 120px;
+
  }
 
- .title-menu {
+ .title-section {
      height: fit-content;
      display: flex;
      align-items: center;
@@ -106,20 +106,25 @@
      width: 285px;
      height: 2px;
      background-color: black;
-
  }
 
- article > p, li > p {
+ .line-contact {
+     width: 224px;
+ }
+
+ p,
+ label,
+ button {
      font-size: 18px;
      font-family: 'PT Mono', sans-serif;
      color: black;
-   
      height: 30px;
  }
- ul{
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
+
+ ul {
+     display: flex;
+     flex-direction: column;
+     gap: 3px;
  }
 
  li {
@@ -131,32 +136,92 @@
      font-family: 'Aref-Ruqaa', sans-serif;
      font-size: 18px;
  }
-.main-menu {
-   width: 280px; 
 
-}
- .main-menu > h3 {
+ .main-menu {
+     width: 280px;
+
+ }
+
+ .main-menu>h3 {
      font-family: 'Aref-Ruqaa', sans-serif;
      font-size: 24px;
      padding-left: 50px;
      padding-bottom: 26px;
  }
 
-menu {
-    display: flex;
-    align-items:flex-start ;
-    height: 300px;
-    gap: 100px;
+ menu {
+     display: flex;
+     align-items: flex-start;
+     height: 300px;
+     gap: 100px;
 
-}
-
-menu > img{
-   padding-top: 50px; 
-}
- img{
-   transition:0.9s;
  }
 
- img:hover{
-    transform: scale(1.1);
+ menu>img {
+     padding-top: 50px;
+ }
+
+ img {
+     transition: 0.9s;
+ }
+
+ img:hover {
+     transform: scale(1.1);
+ }
+
+ form {
+     width: 600px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ form>div {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+ }
+
+ .column {
+     display: flex;
+     flex-direction: column;
+     width: 280px;
+ }
+
+ input {
+     height: 40px;
+     border: 2px solid #988C77;
+     background-color: transparent;
+     margin-bottom: 15px;
+ }
+
+ textarea {
+     border: 2px solid #988C77;
+     background: transparent;
+     margin-bottom: 15px;
+
+ }
+
+ div>.column {
+     display: flex;
+     flex-grow: 2;
+     /*os elementos crescem igualmente na linha. Para ele funcionar tem que usar o display */
+ }
+
+ div>.column:last-child {
+     width: 100px;
+ }
+
+ button {
+     box-shadow: 5px 5px 0 -2px #cbc6b9, 5px 5px 0 0 #988c77;
+     background: transparent;
+     width: 200px;
+     height: 40px;
+ }
+
+ iframe{
+    width:600px;
+    height: 226px;
+    box-shadow: 0px 0px 0px 10px #CBC6B9;
+    margin-top: 40px;
  }
